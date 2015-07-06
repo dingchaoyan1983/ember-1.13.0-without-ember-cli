@@ -1,0 +1,29 @@
+{
+  "name": "ember-1.13.0-without-ember-cli",
+  "version": "1.0.0",
+  "description": "create ember app without ember-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingchaoyan1983/ember-1.13.0-without-ember-cli.git"
+  },
+  "keywords": [
+    "ember",
+    "without",
+    "ember-cli"
+  ],
+  "author": "Dane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dingchaoyan1983/ember-1.13.0-without-ember-cli/issues"
+  },
+  "homepage": "https://github.com/dingchaoyan1983/ember-1.13.0-without-ember-cli#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlbars-compiler": "0.0.2"
+  }
+}

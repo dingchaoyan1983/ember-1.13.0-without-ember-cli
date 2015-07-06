@@ -1,0 +1,21 @@
+{
+  "name": "ember-1.13.0-without-ember-cli",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dingchaoyan1983/ember-1.13.0-without-ember-cli",
+  "authors": [
+    "Dane Ding <dane.ding@activenetwork.com>"
+  ],
+  "description": "without ember-cli",
+  "main": "index",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.13.3"
+  }
+}
