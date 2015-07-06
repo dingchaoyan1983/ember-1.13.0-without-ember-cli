@@ -16,27 +16,27 @@ gulp.task('templates', function() {
   return gulp.src(SRC.TEMPLATES)
     .pipe(htmlbars({compiler: compiler}))
     .pipe(concat('templates.js'))
-    .pipe(gulp.dest('dest/templates'));
+    .pipe(gulp.dest('dist/templates'));
 });
 
 gulp.task('models', function() {
   return gulp.src(SRC.MODELS)
-    .pipe(gulp.dest('dest/models'));
+    .pipe(gulp.dest('dist/models'));
 });
 
 gulp.task('routes', function() {
   return gulp.src(SRC.ROUTES)
-    .pipe(gulp.dest('dest/routes'));
+    .pipe(gulp.dest('dist/routes'));
 });
 
 gulp.task('controllers', function() {
   return gulp.src(SRC.CONTROLLERS)
-    .pipe(gulp.dest('dest/controllers'));
+    .pipe(gulp.dest('dist/controllers'));
 });
 
 gulp.task('app', function() {
   return gulp.src(SRC.APP)
-    .pipe(gulp.dest('dest/'));
+    .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('default', ['templates', 'models', 'controllers', 'routes', 'app'])
